@@ -1,0 +1,827 @@
+$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+html,
+body {
+  font-family: $font;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+// Header styles : Main
+header {
+  width: 100%;
+  padding: 0;
+  border: 1px solid #34445c;
+  background-color: #34445c;
+  height: 10vh;
+  position: fixed;
+  box-shadow: 0px 0px #577eb0;
+  z-index: 99;
+  opacity: 98%;
+
+  .logo {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 400;
+    font-size: 2.8vh;
+    padding-top: 2vh;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10%;
+    border-bottom: 2px solid #577eb0;
+  }
+  .logo a {
+    text-decoration: none;
+    color: white;
+  }
+  .navigation {
+    padding: 1.5vh;
+    padding-right: 0;
+    display: block;
+    float: right;
+    margin-top: 2vh;
+    margin-right: 10%;
+    nav :hover {
+      border-bottom: #577eb0 solid 2px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      margin-right: 0;
+      letter-spacing: 1.3px;
+      font-size: 1.7vh;
+      padding-bottom: 1vh;
+      padding-right: 0;
+      padding-left: 5px;
+    }
+  }
+}
+
+// Banner Styles : Main
+.banner {
+  background-color: #101010;
+  padding-left: 10%;
+  padding-right: 10%;
+  overflow-y: auto;
+  height: 85vh;
+  padding-top: 15vh;
+  .images {
+    .img1 {
+      position: absolute;
+      width: 23%;
+      z-index: 11;
+      right: 10%;
+      top: 35%;
+      filter: grayscale(100%) contrast(140%);
+    }
+    .img2 {
+      position: absolute;
+      top: 28%;
+      width: 23%;
+      z-index: 10;
+      filter: grayscale(100%) contrast(140%);
+    }
+    .img3 {
+      position: absolute;
+      width: 55%;
+      top: 22%;
+      right: 20%;
+      z-index: 9;
+      filter: grayscale(100%) contrast(140%);
+    }
+    .title {
+      position: absolute;
+      width: 80%;
+      border-bottom: 4px solid #577eb0;
+      text-align: center;
+      z-index: 20;
+      top: 35%;
+      font-size: 7.2vh;
+      font-weight: 400;
+      letter-spacing: 0.7vh;
+      mix-blend-mode: difference;
+      color: white;
+    }
+    .descbox {
+      position: absolute;
+      color: white;
+      top: 47%;
+      z-index: 34;
+      font-size: 4vh;
+      font-weight: 400;
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      width: 50%;
+      right: 10%;
+      opacity: 93%;
+      background-color: #101010;
+      border-left: 10px solid #577eb0;
+      .learnhow {
+        margin-top: 10px;
+        border: #577eb0 solid 3px;
+        border-radius: 1.5vh;
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        width: fit-content;
+        :hover {
+          color: #577eb0;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 2.5vh;
+        }
+      }
+    }
+  }
+}
+
+// About Styles: Main
+.about {
+  position: relative;
+  height: 100vh;
+  margin-bottom: 100vh;
+  background-color: #101010;
+  .aboutbg {
+    height: 100vh;
+    opacity: 95%;
+    overflow-y: scroll;
+    object-fit: contain;
+    background-color: #101010;
+    filter: contrast(250%) brightness(10%) grayscale(100%);
+    padding-bottom: 100vh;
+
+    z-index: 1;
+  }
+  .inner-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    .chicagotitle {
+      color: white;
+      font-size: 5vh;
+      position: absolute;
+      top: 15%;
+      padding-bottom: 10px;
+      padding-right: 40px;
+      border-bottom: #577eb0 solid 5px;
+      width: 60%;
+    }
+    .chicagodesc {
+      position: absolute;
+      font-size: 2.5vh;
+      color: white;
+      top: 27%;
+      font-weight: 300;
+      width: 60%;
+    }
+    .intro {
+      background-color: #101010;
+      position: absolute;
+      top: 40%;
+      color: white;
+      font-size: 3vh;
+      width: 60%;
+      padding: 10px;
+      padding-left: 20px;
+      border-left: solid 5px #577eb0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .billintro {
+      background-color: #101010;
+      position: absolute;
+      top: 60%;
+      width: 60%;
+      padding: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      border-left: solid 5px #577eb0;
+      .billpic {
+        display: inline-block;
+        width: 20%;
+        padding: 20px;
+        filter: grayscale(100%) contrast(120%);
+      }
+      .billtext {
+        display: inline-block;
+        color: white;
+        width: 70%;
+        font-size: 2.5vh;
+        padding: 10px;
+      }
+    }
+    .whatruns {
+      .whatrunstitle {
+        width: 60%;
+        position: absolute;
+        top: 115%;
+        color: white;
+        font-size: 5.5vh;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        border-bottom: #577eb0 solid 5px;
+      }
+      .whatruns1 {
+        width: 60%;
+        position: absolute;
+        top: 130%;
+        background-color: #577eb0;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 3.4vh;
+        font-weight: 600;
+        color: #101010;
+      }
+      .whatruns2 {
+        width: 60%;
+        position: absolute;
+        top: 145%;
+        background-color: #577eb0;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 3.4vh;
+        font-weight: 600;
+        color: #101010;
+      }
+      .whatruns3 {
+        width: 60%;
+        position: absolute;
+        top: 165%;
+        background-color: #577eb0;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding: 20px;
+        margin-bottom: 5%;
+        font-size: 3.4vh;
+        font-weight: 600;
+        color: #101010;
+      }
+    }
+  }
+}
+
+// Contact Styles: Main
+.contact {
+  border: 3px solid red;
+  background-color: #101010;
+  padding-top: 15vh;
+}
+
+// Insights Styles: Main
+.insights {
+  background-color: #101010;
+
+  border: 3px solid orange;
+  padding-top: 15vh;
+}
+
+// Media Queries
+
+// Phone:
+@media screen and (min-width: 176px) and (max-width: 480px) {
+  // Header Styles: Phone Screen
+  header {
+    width: 100%;
+    padding: 0;
+    border: 1px solid #34445c;
+    background-color: #34445c;
+    height: 15vh;
+    position: fixed;
+    box-shadow: 0px 0px #577eb0;
+    opacity: 97%;
+
+    .logo {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 2vh;
+      color: white;
+      font-weight: 400;
+      font-size: 1rem;
+      border: none;
+      border-bottom: white solid 1px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .navigation {
+      width: 100%;
+      border: none;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 0;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      padding-right: 0;
+      padding-left: 0;
+      text-align: center;
+      nav a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        font-size: 0.8rem;
+      }
+    }
+    .container {
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+    }
+  }
+
+  // Banner Styles: Phone Screen
+  .banner {
+    background-color: #101010;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    height: 90vh;
+    padding-top: 10vh;
+    .images {
+      .img1 {
+        opacity: 10%;
+        position: absolute;
+        width: 30%;
+        display: none;
+        z-index: 11;
+        right: 10%;
+        top: 35%;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .img2 {
+        opacity: 10%;
+        position: absolute;
+        top: 30%;
+        display: none;
+        width: 30%;
+        z-index: 10;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .img3 {
+        position: absolute;
+        width: 80%;
+        top: 25%;
+        left: 10%;
+        z-index: 9;
+        opacity: 20%;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .title {
+        position: absolute;
+        width: 80%;
+        border-bottom: 4px solid #577eb0;
+        text-align: left;
+        z-index: 20;
+        top: 25%;
+        font-size: 7vh;
+        font-weight: 400;
+        letter-spacing: 0.7vh;
+        mix-blend-mode: difference;
+        color: white;
+        padding-bottom: 10px;
+      }
+      .descbox {
+        position: absolute;
+        color: white;
+        top: 52%;
+        z-index: 34;
+        font-size: 3.6vh;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 60%;
+        left: 10%;
+        border-left: 4px solid #577eb0;
+        .learnhow {
+          margin-top: 10px;
+          border: #577eb0 solid 2px;
+          border-radius: 1.5vh;
+          padding: 10px;
+          padding-top: 5px;
+          padding-bottom: 10px;
+          width: fit-content;
+          :hover {
+            color: #577eb0;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 2.5vh;
+          }
+        }
+      }
+    }
+  }
+
+  // About Styles: Phone Screen
+  .about {
+    position: relative;
+    overflow-y: none;
+    height: 90vh;
+    background-color: #101010;
+    .aboutbg {
+      height: 90vh;
+      opacity: 90%;
+      background-color: #101010;
+      filter: contrast(250%) brightness(10%) grayscale(100%);
+
+      z-index: 1;
+    }
+    .inner-container {
+      margin-left: 10%;
+      margin-right: 10%;
+      .chicagotitle {
+        padding-top: 10%;
+        color: white;
+        font-size: 3vh;
+        position: absolute;
+        top: 15%;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        border-bottom: #577eb0 solid 5px;
+        width: 60%;
+      }
+      .chicagodesc {
+        position: absolute;
+        font-size: 2.3vh;
+        color: white;
+        top: 35%;
+        font-weight: 300;
+        width: 60%;
+      }
+      .intro {
+        background-color: #101010;
+        position: absolute;
+        top: 55%;
+        color: white;
+        font-size: 2.3vh;
+        width: 60%;
+        padding: 10px;
+        padding-left: 20px;
+        border-left: solid 5px #577eb0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .billintro {
+        background-color: #101010;
+        position: absolute;
+        top: 82%;
+        width: 60%;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 20px;
+        border-left: solid 5px #577eb0;
+        .billpic {
+          display: none;
+          width: 0;
+          padding: 0;
+          filter: grayscale(100%) contrast(120%);
+        }
+        .billtext {
+          display: inline-block;
+          color: white;
+          width: 100%;
+          font-size: 2.2vh;
+          padding: 10px;
+        }
+      }
+      .whatruns {
+        .whatrunstitle {
+          width: 60%;
+          position: absolute;
+          top: 123%;
+          color: white;
+          font-size: 3vh;
+          padding-bottom: 10px;
+          padding-right: 40px;
+          margin-bottom: 50px;
+          border-bottom: #577eb0 solid 5px;
+        }
+        .whatruns1 {
+          width: 60%;
+          position: absolute;
+          top: 135%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20px;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+        .whatruns2 {
+          width: 60%;
+          position: absolute;
+          top: 157%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20px;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+        .whatruns3 {
+          width: 60%;
+          position: absolute;
+          top: 190%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20%;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+      }
+    }
+  }
+}
+// Smaller Screen
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  // Header Styles: Small Screen
+  header {
+    width: 100%;
+    padding: 0;
+    border: 1px solid #34445c;
+    background-color: #34445c;
+    height: 15vh;
+    position: fixed;
+    box-shadow: 0px 3px #577eb0;
+    opacity: 95%;
+
+    .logo {
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 2vh;
+      color: white;
+      font-weight: 400;
+      font-size: 1rem;
+      border: none;
+      border-bottom: white solid 1px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .navigation {
+      width: 100%;
+      border: none;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 0;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+      padding-right: 0;
+      padding-left: 0;
+      text-align: center;
+      nav a {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1.5px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  // Banner Styles: Small Screen
+  .banner {
+    background-color: #101010;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-y: auto;
+    height: 85vh;
+    padding-top: 15vh;
+    .images {
+      .img1 {
+        position: absolute;
+        width: 30%;
+        z-index: 11;
+        right: 10%;
+        top: 35%;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .img2 {
+        display: none;
+        position: absolute;
+        top: 30%;
+        width: 30%;
+        z-index: 10;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .img3 {
+        position: absolute;
+        width: 80%;
+        top: 30%;
+        left: 10%;
+        z-index: 9;
+        filter: grayscale(100%) contrast(140%);
+      }
+      .title {
+        position: absolute;
+        width: 80%;
+        border-bottom: 4px solid #577eb0;
+        text-align: center;
+        z-index: 20;
+        top: 30%;
+        font-size: 7vh;
+        font-weight: 400;
+        letter-spacing: 0.7vh;
+        background-color: #101010;
+        mix-blend-mode: difference;
+        color: white;
+      }
+      .descbox {
+        position: absolute;
+        color: white;
+        top: 55%;
+        z-index: 34;
+        font-size: 4vh;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 50%;
+        right: 10%;
+        opacity: 97%;
+        background-color: #101010;
+        border-left: 5px solid #577eb0;
+        .learnhow {
+          margin-top: 10px;
+          border: #577eb0 solid 2px;
+          border-radius: 1.5vh;
+          padding: 10px;
+          padding-top: 5px;
+          padding-bottom: 10px;
+          width: fit-content;
+          :hover {
+            color: #577eb0;
+          }
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 2.5vh;
+          }
+        }
+      }
+    }
+  }
+
+  .about {
+    position: relative;
+    overflow-y: none;
+    height: 90vh;
+    background-color: #101010;
+    .aboutbg {
+      height: 90vh;
+      opacity: 90%;
+      background-color: #101010;
+      filter: contrast(250%) brightness(10%) grayscale(100%);
+
+      z-index: 1;
+    }
+    .inner-container {
+      margin-left: 10%;
+      margin-right: 10%;
+      .chicagotitle {
+        padding-top: 10%;
+        color: white;
+        font-size: 3vh;
+        position: absolute;
+        top: 15%;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        border-bottom: #577eb0 solid 5px;
+        width: 60%;
+      }
+      .chicagodesc {
+        position: absolute;
+        font-size: 2.3vh;
+        color: white;
+        top: 35%;
+        font-weight: 300;
+        width: 60%;
+      }
+      .intro {
+        background-color: #101010;
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-size: 2.3vh;
+        width: 60%;
+        padding: 10px;
+        padding-left: 20px;
+        border-left: solid 5px #577eb0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .billintro {
+        background-color: #101010;
+        position: absolute;
+        top: 70%;
+        width: 60%;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 20px;
+        border-left: solid 5px #577eb0;
+        .billpic {
+          display: none;
+          width: 0;
+          padding: 0;
+          filter: grayscale(100%) contrast(120%);
+        }
+        .billtext {
+          display: inline-block;
+          color: white;
+          width: 100%;
+          font-size: 2.2vh;
+          padding: 10px;
+        }
+      }
+      .whatruns {
+        .whatrunstitle {
+          width: 60%;
+          position: absolute;
+          top: 110%;
+          color: white;
+          font-size: 3vh;
+          padding-bottom: 10px;
+          padding-right: 40px;
+          border-bottom: #577eb0 solid 5px;
+        }
+        .whatruns1 {
+          width: 60%;
+          position: absolute;
+          top: 120%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20px;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+        .whatruns2 {
+          width: 60%;
+          position: absolute;
+          top: 137%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20px;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+        .whatruns3 {
+          width: 60%;
+          position: absolute;
+          top: 158%;
+          background-color: #577eb0;
+          padding-left: 10px;
+          padding-right: 30px;
+          padding: 20px;
+          margin-bottom: 20%;
+          font-size: 2.6vh;
+          font-weight: 600;
+          color: #101010;
+        }
+      }
+    }
+  }
+}
