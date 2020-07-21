@@ -48,7 +48,7 @@ header {
     margin-top: 2vh;
     margin-right: 10%;
     nav :hover {
-      border-bottom: #708090 solid 2px;
+      border-bottom: white solid 2px;
     }
     nav a {
       color: white;
@@ -296,8 +296,8 @@ header {
   header {
     width: 100%;
     padding: 0;
-    border: 1px solid #34445c;
-    background-color: #34445c;
+    border: 1px solid #2c3643;
+    background-color: #2c3643;
     height: 15vh;
     position: fixed;
     box-shadow: 0px 0px #577eb0;
@@ -336,7 +336,7 @@ header {
         letter-spacing: 1.5px;
         margin-left: 2vh;
         margin-right: 2vh;
-        padding-bottom: 0px;
+        padding-bottom: 8px;
         padding-top: 10px;
         font-size: 0.8rem;
       }
@@ -388,7 +388,7 @@ header {
       .title {
         position: absolute;
         width: 80%;
-        border-bottom: 4px solid #577eb0;
+        border-bottom: 4px solid #708090;
         text-align: left;
         z-index: 20;
         top: 25%;
@@ -411,17 +411,17 @@ header {
         padding-bottom: 10px;
         width: 60%;
         left: 10%;
-        border-left: 4px solid #577eb0;
+        border-left: 4px solid #708090;
         .learnhow {
           margin-top: 10px;
-          border: #577eb0 solid 2px;
+          border: #708090 solid 2px;
           border-radius: 1.5vh;
           padding: 10px;
           padding-top: 5px;
           padding-bottom: 10px;
           width: fit-content;
           :hover {
-            color: #577eb0;
+            color: #708090;
           }
           a {
             text-decoration: none;
@@ -458,32 +458,32 @@ header {
         top: 15%;
         padding-bottom: 10px;
         padding-right: 40px;
-        border-bottom: #577eb0 solid 5px;
+        border-bottom: #708090 solid 5px;
         width: 60%;
       }
       .chicagodesc {
         position: absolute;
-        font-size: 2.3vh;
+        font-size: 2vh;
         color: white;
         top: 35%;
         font-weight: 300;
         width: 60%;
       }
       .intro {
-        background-color: #101010;
+        background-color: #222933;
         position: absolute;
         top: 55%;
         color: white;
-        font-size: 2.3vh;
+        font-size: 2vh;
         width: 60%;
         padding: 10px;
         padding-left: 20px;
-        border-left: solid 5px #577eb0;
+        border-left: solid 5px #708090;
         padding-top: 20px;
         padding-bottom: 20px;
       }
       .billintro {
-        background-color: #101010;
+        background-color: #222933;
         position: absolute;
         top: 82%;
         width: 60%;
@@ -492,7 +492,7 @@ header {
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 20px;
-        border-left: solid 5px #577eb0;
+        border-left: solid 5px #708090;
         .billpic {
           display: none;
           width: 0;
@@ -503,7 +503,7 @@ header {
           display: inline-block;
           color: white;
           width: 100%;
-          font-size: 2.2vh;
+          font-size: 2vh;
           padding: 10px;
         }
       }
@@ -517,46 +517,46 @@ header {
           padding-bottom: 10px;
           padding-right: 40px;
           margin-bottom: 50px;
-          border-bottom: #577eb0 solid 5px;
+          border-bottom: #222933 solid 5px;
         }
         .whatruns1 {
           width: 60%;
           position: absolute;
           top: 135%;
-          background-color: #577eb0;
+          background-color: #222933;
           padding-left: 10px;
           padding-right: 30px;
           padding: 20px;
           margin-bottom: 20px;
           font-size: 2.6vh;
           font-weight: 600;
-          color: #101010;
+          color: white;
         }
         .whatruns2 {
           width: 60%;
           position: absolute;
           top: 157%;
-          background-color: #577eb0;
+          background-color: #222933;
           padding-left: 10px;
           padding-right: 30px;
           padding: 20px;
           margin-bottom: 20px;
           font-size: 2.6vh;
           font-weight: 600;
-          color: #101010;
+          color: white;
         }
         .whatruns3 {
           width: 60%;
           position: absolute;
           top: 190%;
-          background-color: #577eb0;
+          background-color: #222933;
           padding-left: 10px;
           padding-right: 30px;
           padding: 20px;
           margin-bottom: 20%;
           font-size: 2.6vh;
           font-weight: 600;
-          color: #101010;
+          color: white;
         }
       }
     }
