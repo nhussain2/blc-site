@@ -43,13 +43,12 @@ header {
   }
   .navigation {
     padding: 1.5vh;
-    padding-right: 0;
     display: block;
     float: right;
     margin-top: 2vh;
     margin-right: 10%;
     nav :hover {
-      border-bottom: #577eb0 solid 2px;
+      border-bottom: #708090 solid 2px;
     }
     nav a {
       color: white;
@@ -59,7 +58,7 @@ header {
       letter-spacing: 1.3px;
       font-size: 1.7vh;
       padding-bottom: 1vh;
-      padding-right: 0;
+      padding-right: 5px;
       padding-left: 5px;
     }
   }
@@ -100,7 +99,7 @@ header {
     .title {
       position: absolute;
       width: 80%;
-      border-bottom: 4px solid #577eb0;
+      border-bottom: 4px solid #708090;
       text-align: center;
       z-index: 20;
       top: 35%;
@@ -124,17 +123,17 @@ header {
       right: 10%;
       opacity: 93%;
       background-color: #101010;
-      border-left: 10px solid #577eb0;
+      border-left: 10px solid #708090;
       .learnhow {
         margin-top: 10px;
-        border: #577eb0 solid 3px;
+        border: #708090 solid 3px;
         border-radius: 1.5vh;
         padding: 10px;
         padding-top: 5px;
         padding-bottom: 10px;
         width: fit-content;
         :hover {
-          color: #577eb0;
+          color: #708090;
         }
         a {
           text-decoration: none;
@@ -173,7 +172,7 @@ header {
       top: 15%;
       padding-bottom: 10px;
       padding-right: 40px;
-      border-bottom: #577eb0 solid 5px;
+      border-bottom: #708090 solid 5px;
       width: 60%;
     }
     .chicagodesc {
@@ -185,7 +184,7 @@ header {
       width: 60%;
     }
     .intro {
-      background-color: #101010;
+      background-color: #708090;
       position: absolute;
       top: 40%;
       color: white;
@@ -193,12 +192,12 @@ header {
       width: 60%;
       padding: 10px;
       padding-left: 20px;
-      border-left: solid 5px #577eb0;
+      border-left: solid 5px white;
       padding-top: 20px;
       padding-bottom: 20px;
     }
     .billintro {
-      background-color: #101010;
+      background-color: #708090;
       position: absolute;
       top: 60%;
       width: 60%;
@@ -206,7 +205,7 @@ header {
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 20px;
-      border-left: solid 5px #577eb0;
+      border-left: solid 5px white;
       .billpic {
         display: inline-block;
         width: 20%;
@@ -230,13 +229,13 @@ header {
         font-size: 5.5vh;
         padding-bottom: 10px;
         padding-right: 40px;
-        border-bottom: #577eb0 solid 5px;
+        border-bottom: #708090 solid 5px;
       }
       .whatruns1 {
         width: 60%;
         position: absolute;
         top: 130%;
-        background-color: #577eb0;
+        background-color: #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
@@ -249,7 +248,7 @@ header {
         width: 60%;
         position: absolute;
         top: 145%;
-        background-color: #577eb0;
+        background-color: #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
@@ -262,7 +261,7 @@ header {
         width: 60%;
         position: absolute;
         top: 165%;
-        background-color: #577eb0;
+        background-color: #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
