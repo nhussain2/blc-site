@@ -28,7 +28,6 @@ class IndexPage extends React.Component {
         <Header />
         <Banner />
         <About />
-        <Insights />
         <Contact />
       </div>
     )
