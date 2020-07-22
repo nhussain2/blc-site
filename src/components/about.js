@@ -70,31 +70,19 @@ const About = () => {
         <div className="whatruns">
           <div
             className="whatrunstitle"
-            data-aos="zoom-in-up"
+            data-aos="zoom-in"
             data-aos-duration="600"
           >
             What runs <b>Blue Line Capital</b>?
           </div>
-          <div
-            className="whatruns1"
-            data-aos="zoom-in-up"
-            data-aos-duration="600"
-          >
+          <div className="whatruns1" data-aos="zoom-in" data-aos-duration="600">
             Active management + well-balanced institutional style portfolio.
           </div>
-          <div
-            className="whatruns2"
-            data-aos="zoom-in-up"
-            data-aos-duration="600"
-          >
+          <div className="whatruns2" data-aos="zoom-in" data-aos-duration="600">
             Alpha seeked strategically through long/short equities, options,
             commodities, fixed-income and alternative investments.
           </div>
-          <div
-            className="whatruns3"
-            data-aos="zoom-in-up"
-            data-aos-duration="600"
-          >
+          <div className="whatruns3" data-aos="zoom-in" data-aos-duration="600">
             Incomparable customer service. Focused on you.
           </div>
         </div>

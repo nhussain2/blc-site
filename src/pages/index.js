@@ -5,6 +5,7 @@ import Banner from "../components/banner"
 import About from "../components/about"
 import Contact from "../components/contact"
 import Insights from "../components/insights"
+import Location from "../components/location"
 import "aos/dist/aos.css"
 
 if (typeof window !== "undefined") {
@@ -29,6 +30,7 @@ class IndexPage extends React.Component {
         <Banner />
         <About />
         <Contact />
+        <Location />
       </div>
     )
   }

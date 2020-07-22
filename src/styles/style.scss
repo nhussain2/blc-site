@@ -103,9 +103,9 @@ header {
       text-align: center;
       z-index: 20;
       top: 35%;
-      font-size: 7.2vh;
+      font-size: 7vh;
       font-weight: 400;
-      letter-spacing: 0.7vh;
+      letter-spacing: 0.6vh;
       mix-blend-mode: difference;
       color: white;
     }
@@ -383,6 +383,61 @@ header {
 
   border: 3px solid orange;
   padding-top: 15vh;
+}
+
+.location {
+  position: relative;
+  background-color: #222933;
+  padding-top: 15vh;
+  height: 85vh;
+  .locationtitle {
+    color: white;
+    margin-left: 10%;
+    font-size: 5vh;
+    padding-bottom: 10px;
+    width: 62.8%;
+    border-bottom: white solid 5px;
+  }
+  .contactinfo {
+    display: inline;
+    .contactimg {
+      margin-top: 3%;
+      margin-left: 10%;
+      width: 20%;
+      float: left;
+      filter: grayscale(100%) brightness(100%);
+      border-left: 10px white solid;
+    }
+    .contacttext {
+      float: left;
+      margin-top: 3%;
+      margin-left: 2%;
+      width: 31%;
+      font-size: 3.7vh;
+      color: white;
+      font-weight: 300;
+      padding: 10px;
+    }
+  }
+  .footer {
+    height: 20vh;
+    background-color: #101010;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    p {
+      text-align: left;
+      padding-top: 0;
+      margin-top: 2.4%;
+      padding-bottom: 0;
+      margin-left: 10%;
+      padding-left: 20px;
+      width: 30%;
+      border-left: solid 4px white;
+      background-color: #101010;
+    }
+  }
 }
 
 // Media Queries
