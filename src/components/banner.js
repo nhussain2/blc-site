@@ -37,7 +37,7 @@ const Banner = () => {
           <div
             className="img1"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-delay="400"
           >
             <Img fluid={data.BoardofTrade.childImageSharp.fluid} />
@@ -45,7 +45,7 @@ const Banner = () => {
           <div
             className="img2"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-delay="400"
           >
             <Img fluid={data.Chicago.childImageSharp.fluid} />
@@ -53,7 +53,7 @@ const Banner = () => {
           <div
             className="img3"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-delay="400"
           >
             <Img fluid={data.BlueLine.childImageSharp.fluid} />
@@ -61,7 +61,7 @@ const Banner = () => {
           <div
             className="title"
             data-aos="fade-down"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-delay="700"
           >
             <b>BLUE LINE</b> CAPITAL
@@ -69,7 +69,7 @@ const Banner = () => {
           <div
             className="descbox"
             data-aos="fade-left"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-delay="1000"
           >
             Developing innovative strategies to{" "}

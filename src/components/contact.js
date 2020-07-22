@@ -6,10 +6,14 @@ const Contact = () => {
   return (
     <div className="container">
       <div id="contact" className="contact">
-        <div className="contacttitle">
+        <div
+          className="contacttitle"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        >
           Get in <b>Touch</b>.
         </div>
-        <div className="contactform">
+        <div className="contactform" data-aos="zoom-in" data-aos-duration="600">
           <form name="contactnetlifyform" method="POST" data-netlify="true">
             <div className="names">
               <div className="firstname">

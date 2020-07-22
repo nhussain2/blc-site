@@ -33,20 +33,20 @@ const About = () => {
         <div
           className="chicagotitle"
           data-aos="fade-right"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           Located in the heart of <b>Chicago.</b>
         </div>
         <div
           className="chicagodesc"
           data-aos="fade-right"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           One of the world's largest commodity and derivative hubs, we find our
           extensive commodity and macroeconomic background a value added
           advantage.
         </div>
-        <div className="intro" data-aos="fade-right" data-aos-duration="1000">
+        <div className="intro" data-aos="fade-right" data-aos-duration="600">
           Blue Line Capital LLC is an <b>investment advisor</b> working closely
           with high-net-worth clients to achieve their goals and plan their
           financial future.
@@ -54,7 +54,7 @@ const About = () => {
         <div
           className="billintro"
           data-aos="fade-right"
-          data-aos-duration="1000"
+          data-aos-duration="600"
         >
           <div className="billpic">
             <Img fluid={data.Bill.childImageSharp.fluid} />
@@ -71,22 +71,21 @@ const About = () => {
           <div
             className="whatrunstitle"
             data-aos="zoom-in-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
+            data-aos-duration="600"
           >
             What runs <b>Blue Line Capital</b>?
           </div>
           <div
             className="whatruns1"
             data-aos="zoom-in-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             Active management + well-balanced institutional style portfolio.
           </div>
           <div
             className="whatruns2"
             data-aos="zoom-in-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             Alpha seeked strategically through long/short equities, options,
             commodities, fixed-income and alternative investments.
@@ -94,7 +93,7 @@ const About = () => {
           <div
             className="whatruns3"
             data-aos="zoom-in-up"
-            data-aos-duration="1000"
+            data-aos-duration="600"
           >
             Incomparable customer service. Focused on you.
           </div>

@@ -273,8 +273,7 @@ header {
 
 // Contact Styles: Main
 .contact {
-  border: 3px solid red;
-  background-color: #101010;
+  background-color: #222933;
   padding-top: 15vh;
   height: 85vh;
   .contacttitle {
@@ -282,9 +281,8 @@ header {
     margin-left: 10%;
     font-size: 5vh;
     padding-bottom: 10px;
-    width: 60%;
-    border-bottom: #708090 solid 5px;
-    padding-right: 40px;
+    width: 62.8%;
+    border-bottom: white solid 5px;
   }
   .contactform {
     margin-left: 10%;
@@ -292,7 +290,7 @@ header {
       .names {
         display: inline;
         .firstname input {
-          background-color: #101010;
+          background-color: #222933;
           border: 1px solid white;
           padding: 20px;
           width: 30%;
@@ -302,12 +300,12 @@ header {
           font-size: 3vh;
         }
         .lastname input {
-          background-color: #101010;
+          background-color: #222933;
           border: 1px solid white;
           padding: 20px;
           width: 30%;
           float: left;
-          margin-left: 40px;
+          margin-left: 3.3%;
           margin-top: 20px;
           color: white;
           font-size: 3vh;
@@ -315,7 +313,7 @@ header {
       }
       .formemail {
         input {
-          background-color: #101010;
+          background-color: #222933;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -328,7 +326,7 @@ header {
       }
       .formnumber {
         input {
-          background-color: #101010;
+          background-color: #222933;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -341,7 +339,7 @@ header {
       }
       .formmessage {
         textarea {
-          background-color: #101010;
+          background-color: #222933;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -362,7 +360,7 @@ header {
         }
         input {
           margin-right: 20%;
-          background-color: #101010;
+          background-color: #222933;
           border: 3px solid #708090;
           padding: 20px;
           width: 69.7%;
