@@ -19,7 +19,7 @@ const Location = () => {
   return (
     <div>
       <div className="container">
-        <div className="location">
+        <div id="location" className="location">
           <div
             className="locationtitle"
             data-aos="zoom-in"

@@ -14,7 +14,12 @@ const Contact = () => {
           Get in <b>Touch</b>.
         </div>
         <div className="contactform" data-aos="zoom-in" data-aos-duration="600">
-          <form name="contactnetlifyform" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
             <div className="names">
               <div className="firstname">
                 <input type="text" name="firstname" placeholder="First Name*" />
@@ -36,7 +41,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="submitbtn">
-              <input type="submit"></input>
+              <button type="submit">Submit</button>
             </div>
           </form>
         </div>
