@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div className="contactform" data-aos="zoom-in" data-aos-duration="600">
           <form
-            name="contact"
+            name="contactnetlifyform"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
