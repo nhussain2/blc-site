@@ -15,11 +15,10 @@ const Contact = () => {
         </div>
         <div className="contactform" data-aos="zoom-in" data-aos-duration="600">
           <form
-            name="contactnetlifyform"
+            name="contactnetlify"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            netlify
           >
             <div className="names">
               <div className="firstname">
@@ -33,7 +32,7 @@ const Contact = () => {
               <input type="text" name="email" placeholder="Email*"></input>
             </div>
             <div className="formnumber">
-              <input type="number" name="number" placeholder="Number"></input>
+              <input type="text" name="number" placeholder="Number"></input>
             </div>
             <div className="formmessage">
               <textarea
@@ -42,7 +41,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="submitbtn">
-              <button name="submitbtn" type="submit">
+              <button type="submit" name="submitnetlify">
                 Submit
               </button>
             </div>
