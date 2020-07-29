@@ -26,7 +26,7 @@ const Location = () => {
               params={{
                 particles: {
                   number: {
-                    value: 90,
+                    value: 120,
                   },
                   size: {
                     value: 3,

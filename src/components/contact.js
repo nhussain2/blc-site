@@ -11,7 +11,7 @@ const Contact = () => {
           params={{
             particles: {
               number: {
-                value: 90,
+                value: 140,
               },
               size: {
                 value: 3,
