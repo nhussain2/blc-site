@@ -7,7 +7,19 @@ const Contact = () => {
   return (
     <div className="container">
       <div id="particles-js">
-        <Particles />
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 50,
+                density: {
+                  enable: true,
+                  value_area: 1000,
+                },
+              },
+            },
+          }}
+        />
       </div>
       <div id="contact" className="contact">
         <div

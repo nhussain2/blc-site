@@ -27,7 +27,19 @@ const About = () => {
   return (
     <div className="about">
       <div id="particles-js">
-        <Particles />
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 140,
+                density: {
+                  enable: true,
+                  value_area: 1000,
+                },
+              },
+            },
+          }}
+        />
       </div>
       <div id="aboutid" class="aboutbg">
         <Img fluid={data.Skyline.childImageSharp.fluid} />
@@ -72,9 +84,19 @@ const About = () => {
           </div>
         </div>
         <div className="whatruns">
-          <div id="particles-js">
-            <Particles />
-          </div>
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: 140,
+                  density: {
+                    enable: true,
+                    value_area: 1000,
+                  },
+                },
+              },
+            }}
+          />
           <div
             className="whatrunstitle"
             data-aos="zoom-in"

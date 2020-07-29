@@ -34,7 +34,19 @@ const Banner = () => {
   return (
     <div>
       <div id="particles-js">
-        <Particles />
+        <Particles
+          params={{
+            particles: {
+              number: {
+                value: 140,
+                density: {
+                  enable: true,
+                  value_area: 1000,
+                },
+              },
+            },
+          }}
+        />
       </div>
       <div className="container">
         <div id="bannerid" className="banner">

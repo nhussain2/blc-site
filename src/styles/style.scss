@@ -297,7 +297,7 @@ header {
       .names {
         display: inline;
         .firstname input {
-          background-color: #222933;
+          background-color: transparent;
           border: 1px solid white;
           padding: 20px;
           width: 30%;
@@ -307,7 +307,7 @@ header {
           font-size: 3vh;
         }
         .lastname input {
-          background-color: #222933;
+          background-color: transparent;
           border: 1px solid white;
           padding: 20px;
           width: 30%;
@@ -320,7 +320,7 @@ header {
       }
       .formemail {
         input {
-          background-color: #222933;
+          background-color: transparent;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -333,7 +333,7 @@ header {
       }
       .formnumber {
         input {
-          background-color: #222933;
+          background-color: transparent;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -346,7 +346,7 @@ header {
       }
       .formmessage {
         textarea {
-          background-color: #222933;
+          background-color: transparent;
           border: 1px solid white;
           padding: 20px;
           width: 60%;
@@ -367,7 +367,7 @@ header {
         }
         button {
           margin-right: 20%;
-          background-color: #222933;
+          background-color: transparent;
           border: 3px solid #708090;
           padding: 20px;
           width: 69.7%;

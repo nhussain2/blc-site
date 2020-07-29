@@ -19,11 +19,23 @@ const Location = () => {
   `)
   return (
     <div>
-      <div id="particles-js">
-        <Particles />
-      </div>
       <div className="container">
         <div id="location" className="location">
+          <div id="particles-js">
+            <Particles
+              params={{
+                particles: {
+                  number: {
+                    value: 50,
+                    density: {
+                      enable: true,
+                      value_area: 1000,
+                    },
+                  },
+                },
+              }}
+            />
+          </div>
           <div
             className="locationtitle"
             data-aos="zoom-in"
