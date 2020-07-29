@@ -84,19 +84,21 @@ const About = () => {
           </div>
         </div>
         <div className="whatruns">
-          <Particles
-            params={{
-              particles: {
-                number: {
-                  value: 80,
-                  density: {
-                    enable: true,
-                    value_area: 1000,
+          <div id="particles-js">
+            <Particles
+              params={{
+                particles: {
+                  number: {
+                    value: 80,
+                    density: {
+                      enable: true,
+                      value_area: 1000,
+                    },
                   },
                 },
-              },
-            }}
-          />
+              }}
+            />
+          </div>
           <div
             className="whatrunstitle"
             data-aos="zoom-in"
