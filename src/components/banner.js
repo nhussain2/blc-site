@@ -38,10 +38,17 @@ const Banner = () => {
           params={{
             particles: {
               number: {
-                value: 140,
-                density: {
+                value: 200,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
                   enable: true,
-                  value_area: 1000,
+                  mode: "repulse",
                 },
               },
             },

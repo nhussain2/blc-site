@@ -11,10 +11,17 @@ const Contact = () => {
           params={{
             particles: {
               number: {
-                value: 50,
-                density: {
+                value: 90,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
                   enable: true,
-                  value_area: 1000,
+                  mode: "repulse",
                 },
               },
             },

@@ -31,10 +31,17 @@ const About = () => {
           params={{
             particles: {
               number: {
-                value: 80,
-                density: {
+                value: 90,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
                   enable: true,
-                  value_area: 1000,
+                  mode: "repulse",
                 },
               },
             },
@@ -77,10 +84,17 @@ const About = () => {
               params={{
                 particles: {
                   number: {
-                    value: 80,
-                    density: {
+                    value: 90,
+                  },
+                  size: {
+                    value: 3,
+                  },
+                },
+                interactivity: {
+                  events: {
+                    onhover: {
                       enable: true,
-                      value_area: 1000,
+                      mode: "repulse",
                     },
                   },
                 },
