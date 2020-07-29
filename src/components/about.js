@@ -26,7 +26,7 @@ const About = () => {
   `)
   return (
     <div className="about">
-      <div id="particles-js">
+      <div id="particles-js-about">
         <Particles
           params={{
             particles: {
@@ -84,7 +84,7 @@ const About = () => {
           </div>
         </div>
         <div className="whatruns">
-          <div id="particles-js">
+          <div id="particles-js-about">
             <Particles
               params={{
                 particles: {
