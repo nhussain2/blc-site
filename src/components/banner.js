@@ -51,44 +51,19 @@ const Banner = () => {
       <div className="container">
         <div id="bannerid" className="banner">
           <div className="images">
-            <div
-              className="img1"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="400"
-            >
+            <div className="img1" data-aos="fade-up">
               <Img fluid={data.BoardofTrade.childImageSharp.fluid} />
             </div>
-            <div
-              className="img2"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="400"
-            >
+            <div className="img2" data-aos="fade-up">
               <Img fluid={data.Chicago.childImageSharp.fluid} />
             </div>
-            <div
-              className="img3"
-              data-aos="fade-up"
-              data-aos-duration="600"
-              data-aos-delay="400"
-            >
+            <div className="img3" data-aos="fade-up">
               <Img fluid={data.BlueLine.childImageSharp.fluid} />
             </div>
-            <div
-              className="title"
-              data-aos="fade-down"
-              data-aos-duration="600"
-              data-aos-delay="700"
-            >
+            <div className="title" data-aos="fade-down">
               <b>BLUE LINE</b> CAPITAL
             </div>
-            <div
-              className="descbox"
-              data-aos="fade-left"
-              data-aos-duration="600"
-              data-aos-delay="1000"
-            >
+            <div className="descbox" data-aos="fade-left">
               Developing innovative strategies to{" "}
               <b>achieve your financial goals.</b>
               <div className="learnhow">

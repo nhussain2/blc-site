@@ -22,14 +22,10 @@ const Contact = () => {
         />
       </div>
       <div id="contact" className="contact">
-        <div
-          className="contacttitle"
-          data-aos="zoom-in"
-          data-aos-duration="600"
-        >
+        <div className="contacttitle" data-aos="zoom-in">
           Get in <b>Touch</b>.
         </div>
-        <div className="contactform" data-aos="zoom-in" data-aos-duration="600">
+        <div className="contactform" data-aos="zoom-in">
           <form name="contactnetlify" method="POST" data-netlify="true">
             <div className="names">
               <div className="firstname">

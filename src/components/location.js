@@ -36,26 +36,14 @@ const Location = () => {
               }}
             />
           </div>
-          <div
-            className="locationtitle"
-            data-aos="zoom-in"
-            data-aos-duration="600"
-          >
+          <div className="locationtitle" data-aos="zoom-in">
             Let's <b>meet</b>.
           </div>
           <div className="contactinfo">
-            <div
-              className="contactimg"
-              data-aos="zoom-in"
-              data-aos-duration="600"
-            >
+            <div className="contactimg" data-aos="zoom-in">
               <Img fluid={data.ContactTrade.childImageSharp.fluid} />
             </div>
-            <div
-              className="contacttext"
-              data-aos="zoom-in"
-              data-aos-duration="600"
-            >
+            <div className="contacttext" data-aos="zoom-in">
               We are located in the <b>Chicago Board of Trade.</b> <br></br>
               <br></br>
               Call: 312-837-3944

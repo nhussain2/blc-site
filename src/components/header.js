@@ -5,7 +5,7 @@ import "../styles/style.scss"
 const Header = () => {
   return (
     <div>
-      <header data-aos="fade-down" data-aos-duration="600" data-aos-delay="200">
+      <header data-aos="fade-down">
         <div className="inner-header">
           <div className="logo">
             <Link to="/#bannerid">
