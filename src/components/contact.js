@@ -1,10 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../styles/style.scss"
+import Particles from "react-particles-js"
 
 const Contact = () => {
   return (
     <div className="container">
+      <div id="particles-js">
+        <Particles />
+      </div>
       <div id="contact" className="contact">
         <div
           className="contacttitle"

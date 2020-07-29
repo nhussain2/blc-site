@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import "../styles/style.scss"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import Particles from "react-particles-js"
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +26,9 @@ const About = () => {
   `)
   return (
     <div className="about">
+      <div id="particles-js">
+        <Particles />
+      </div>
       <div id="aboutid" class="aboutbg">
         <Img fluid={data.Skyline.childImageSharp.fluid} />
       </div>
@@ -68,6 +72,9 @@ const About = () => {
           </div>
         </div>
         <div className="whatruns">
+          <div id="particles-js">
+            <Particles />
+          </div>
           <div
             className="whatrunstitle"
             data-aos="zoom-in"

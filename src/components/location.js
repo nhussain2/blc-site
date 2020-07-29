@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import "../styles/style.scss"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
+import Particles from "react-particles-js"
 
 const Location = () => {
   const data = useStaticQuery(graphql`
@@ -18,6 +19,9 @@ const Location = () => {
   `)
   return (
     <div>
+      <div id="particles-js">
+        <Particles />
+      </div>
       <div className="container">
         <div id="location" className="location">
           <div
