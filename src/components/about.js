@@ -46,32 +46,20 @@ const About = () => {
       </div>
 
       <div className="inner-container">
-        <div
-          className="chicagotitle"
-          data-aos="fade-right"
-          data-aos-duration="600"
-        >
+        <div className="chicagotitle" data-aos="fade-right">
           Located in the heart of <b>Chicago.</b>
         </div>
-        <div
-          className="chicagodesc"
-          data-aos="fade-right"
-          data-aos-duration="600"
-        >
+        <div className="chicagodesc" data-aos="fade-right">
           One of the world's largest commodity and derivative hubs, we find our
           extensive commodity and macroeconomic background a value added
           advantage.
         </div>
-        <div className="intro" data-aos="fade-right" data-aos-duration="600">
+        <div className="intro" data-aos="fade-right">
           Blue Line Capital LLC is an <b>investment advisor</b> working closely
           with high-net-worth clients to achieve their goals and plan their
           financial future.
         </div>
-        <div
-          className="billintro"
-          data-aos="fade-right"
-          data-aos-duration="600"
-        >
+        <div className="billintro" data-aos="fade-right">
           <div className="billpic">
             <Img fluid={data.Bill.childImageSharp.fluid} />
           </div>
@@ -84,7 +72,7 @@ const About = () => {
           </div>
         </div>
         <div className="whatruns">
-          <div id="particles-js-about">
+          <div id="particles-js-about-two">
             <Particles
               params={{
                 particles: {
@@ -99,11 +87,7 @@ const About = () => {
               }}
             />
           </div>
-          <div
-            className="whatrunstitle"
-            data-aos="zoom-in"
-            data-aos-duration="600"
-          >
+          <div className="whatrunstitle" data-aos="zoom-in">
             What runs <b>Blue Line Capital</b>?
           </div>
           <div className="whatruns1" data-aos="zoom-in" data-aos-duration="600">
