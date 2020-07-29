@@ -205,7 +205,7 @@ header {
       z-index: 2;
     }
     .intro {
-      background-color: #222933;
+      background-color: transparent;
       position: absolute;
       top: 40%;
       color: white;
@@ -213,13 +213,14 @@ header {
       width: 60%;
       padding: 10px;
       padding-left: 20px;
-      border-left: solid 5px #34404f;
+      border-left: 5px solid #708090;
+      //border: solid 1px #34404f;
       padding-top: 20px;
       padding-bottom: 20px;
       z-index: 2;
     }
     .billintro {
-      background-color: #222933;
+      background-color: transparent;
       position: absolute;
       top: 60%;
       width: 60%;
@@ -227,7 +228,8 @@ header {
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 20px;
-      border-left: solid 5px #34404f;
+      //border: solid 1px #34404f;
+      border-left: 5px solid #708090;
       z-index: 2;
       .billpic {
         display: inline-block;
@@ -253,12 +255,14 @@ header {
         padding-bottom: 10px;
         padding-right: 40px;
         border-bottom: #708090 solid 5px;
+        z-index: 5;
       }
       .whatruns1 {
         width: 60%;
         position: absolute;
         top: 130%;
-        background-color: #222933;
+        background-color: transparent;
+        border: solid 1px #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
@@ -266,12 +270,14 @@ header {
         font-size: 3.4vh;
         font-weight: 600;
         color: white;
+        z-index: 5;
       }
       .whatruns2 {
         width: 60%;
         position: absolute;
         top: 145%;
-        background-color: #222933;
+        background-color: transparent;
+        border: solid 1px #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
@@ -279,12 +285,14 @@ header {
         font-size: 3.4vh;
         font-weight: 600;
         color: white;
+        z-index: 5;
       }
       .whatruns3 {
         width: 60%;
         position: absolute;
         top: 165%;
-        background-color: #222933;
+        background-color: transparent;
+        border: solid 1px #708090;
         padding-left: 10px;
         padding-right: 30px;
         padding: 20px;
@@ -292,6 +300,7 @@ header {
         font-size: 3.4vh;
         font-weight: 600;
         color: white;
+        z-index: 5;
       }
     }
   }

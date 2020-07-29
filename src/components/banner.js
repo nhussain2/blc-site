@@ -33,28 +33,6 @@ const Banner = () => {
   `)
   return (
     <div>
-      <div id="particles-js">
-        <Particles
-          params={{
-            particles: {
-              number: {
-                value: 200,
-              },
-              size: {
-                value: 3,
-              },
-            },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-              },
-            },
-          }}
-        />
-      </div>
       <div className="container">
         <div id="bannerid" className="banner">
           <div className="images">
