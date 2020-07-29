@@ -31,7 +31,7 @@ const About = () => {
           params={{
             particles: {
               number: {
-                value: 150,
+                value: 80,
               },
               size: {
                 value: 3,
@@ -84,7 +84,7 @@ const About = () => {
               params={{
                 particles: {
                   number: {
-                    value: 120,
+                    value: 80,
                   },
                   size: {
                     value: 3,
